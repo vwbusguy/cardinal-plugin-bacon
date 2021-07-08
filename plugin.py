@@ -5,7 +5,7 @@ class BaconPlugin(object):
     def __init__(self, cardinal, config):
         pass
 
-    @regex(r'[Bb8][Aa4][Cc][Oo0][Nn]')
+    @regex(r'[Bb8][Aa4][Cc][Oo0][Nn](?![Bb][oO][tT])')
     @help("Talk about bacon.")
     @help("Syntax: bacon")
     def bacon(self, cardinal, user, channel, msg):

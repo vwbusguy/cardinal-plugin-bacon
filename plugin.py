@@ -22,7 +22,15 @@ class BaconPlugin(object):
                 '''"Who cannot appreciate the smell of bacon?" — Tony Cardenas''',
                 'GPL is great and all, %s, but have you tried bacon?' % nick,
                 'Why did we call it Fedora Silverblue and not Fedora Bacon?',
-                'mmmmmmmmmm, Bacon'
+                'mmmmmmmmmm, Bacon',
+                '''"Bacon's the best. Even the frying of bacon sounds like applause." - Jim Gaffigan''',
+                '''When you have bacon in your mouth, it doesn't matter who's president or anything. - Louis CK''',
+                '''Bacon. Let's talk about bacon. There's no meat more glorious than bacon. - Rob Manuel''',
+                'You worry too much, %s. Eat some bacon.' % nick,
+                '''I'm not sure about your question, %s, but bacon is the answer.''' % nick,
+                'I want someone to look at me the way I look at bacon.',
+                'Roses are red.  Bacon is red.  Make some when you get out of bed.',
+                'Did someone say bacon?!?'
                 )
         return random.choice(messages)
 

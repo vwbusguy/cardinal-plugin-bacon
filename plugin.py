@@ -10,7 +10,7 @@ class BaconPlugin(object):
     @help("Syntax: bacon")
     def bacon(self, cardinal, user, channel, msg):
         nick = user.nick
-        if "zodbot" not in nick: 
+        if "bot" not in nick: 
             cardinal.sendMsg(channel, self.get_bacon_msg(nick))
 
     def get_bacon_msg(self,nick):

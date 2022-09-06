@@ -31,7 +31,10 @@ class BaconPlugin(object):
                 '''I'm not sure about your question, %s, but bacon is the answer.''' % nick,
                 'I want someone to look at me the way I look at bacon.',
                 'Roses are red.  Bacon is red.  Make some when you get out of bed.',
-                'Did someone say bacon?!?'
+                'Did someone say bacon?!?',
+                '"Life is too short not to order the bacon dessert." - George Takei',
+                '"Bacon bits are like the fairy dust of the food community." - Jim Gaffigan',
+                'Welcome to the Community Enterprise Bacon Stream, %s!' % nick
                 )
         return random.choice(messages)
 

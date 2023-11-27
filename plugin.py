@@ -34,7 +34,18 @@ class BaconPlugin(object):
                 'Did someone say bacon?!?',
                 '"Life is too short not to order the bacon dessert." - George Takei',
                 '"Bacon bits are like the fairy dust of the food community." - Jim Gaffigan',
-                'Welcome to the Community Enterprise Bacon Stream, %s!' % nick
+                'Welcome to the Community Enterprise Bacon Stream, %s!' % nick,
+                'Bacon is like a high five for your mouth',
+                'Git your own bacon, %s!' % nick,
+                'Did you know that the C language was based on B and the B stands for bacon?',
+                "Linux?  I'm running the Bacon Standard Distribution.",
+                'Kubernetes is great and all, %s, but bacon was shipped in containers long before Docker was a thing.' % nick,
+                'That message did not escape my Bacon Packet Filter technology.',
+                'Jono is probably cool with me name dropping him here, right?',
+                'Some like Forgejo.  Some like Github.  My favorite repository is the smokehouse!',
+                'Look, %s, between you and bacon, I have to be honest - I forgot everything before I said bacon.' % nick,
+                'ChatGPT wishes it could talk about bacon as much as I do!',
+                '''%s's password is: 8 4 C 0 N.  Don't tell anyone.''' % nick
                 )
         return random.choice(messages)
 
